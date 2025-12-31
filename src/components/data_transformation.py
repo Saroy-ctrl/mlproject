@@ -10,6 +10,8 @@ from src.exception import CustomException
 from src.logger import logging
 import os
 from src.utils import save_object
+from src.components.model_train import ModelTrainerConfig
+from src.components.model_train import ModelTrainer
 
 @dataclass
 class DataTransformationConfig:
